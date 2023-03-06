@@ -1,0 +1,7 @@
+.row{
+    display: flex;
+
+    &:not(:last-child){
+        margin-bottom: 2rem;
+    }
+}
